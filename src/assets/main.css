@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, button, input {
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0.625rem 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 2.25rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.relative {
+    position: relative;
+}
+
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.display-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.display-top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.w-1-4 {
+    width: 25%;
+}
+
+.bc-white {
+    background-color: #fff;
+}
+
+.bc-black {
+    background-color: #000;
+}
+
+.bc-light-gray {
+    background-color: #f1f1f1;
+}
+
+.text-3xl {
+    font-size: 2.25rem;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-black {
+    color: #000;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.tracking-wide {
+    letter-spacing: 0.25rem;
+}
+
+.none-underline {
+    text-decoration: none;
+}
+
+.opacity-75 {
+    opacity: 0.75;
+}
+
+.border-none {
+    border: none;
+}
+
+.grayscale-75 {
+    filter: grayscale(75%);
+}
+
+.hover-gray:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.px-8 {
+    padding: 0 0.5rem;
+}
+
+.p-8-16 {
+    padding: 0.5rem 1rem;
+}
+
+.py-16 {
+    padding: 1rem 0;
+}
+
+.p-32-16 {
+    padding: 2rem 1rem;
+}
+
+.mx-auto {
+    margin: 0 auto;
+}
+
+.my-15 {
+    margin: 15px 0;
+}
